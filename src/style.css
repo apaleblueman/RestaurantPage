@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    height: auto;
+    width: 10%;
+}
