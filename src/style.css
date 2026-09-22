@@ -1,5 +1,8 @@
 body{
-    background-color: antiquewhite;
+    background: url("./assets/background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 header{
     display: flex;
@@ -9,4 +12,39 @@ header{
 .logo{
     height: auto;
     width: 10%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    
+}
+.site{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f2f290;
+}
+.home, .menu, .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+}
+button{
+    background: none;
+    border-radius: 200px;
+    font-size: larger;
+    background-color: wheat;
+    padding:0.5em 1em 0.5em 1em;
+    box-shadow: 0 9px #999;
+
+}
+button:active{
+    font-weight: 800;
+      box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
 }
