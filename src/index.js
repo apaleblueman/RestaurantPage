@@ -22,8 +22,6 @@ buttons.forEach(button => {
         case "contact":
             contact();
             break;
-        
-
     }
 })
 });
