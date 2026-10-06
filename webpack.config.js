@@ -1,7 +1,7 @@
 import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 export default{
-    mode: "production",
+    mode: "development",
     entry: "./src/index.js",
     devtool: "eval-source-map",
     devServer: {
